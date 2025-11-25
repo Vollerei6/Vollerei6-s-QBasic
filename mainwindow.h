@@ -17,6 +17,10 @@ public:
 
 private slots:
     void on_cmdLineEdit_editingFinished();
+    void onRunClicked();
+    void onClearClicked();
+    void onLoadClicked();
+    void onSaveClicked();
 
 private:
     Ui::MainWindow *ui;
